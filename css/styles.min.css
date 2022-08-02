@@ -256,6 +256,12 @@ textarea {
 	max-width: 100%
 }
 
+.header__logo-text {
+  margin-top:0;
+  color: black;
+  text-transform: uppercase;
+}
+
 .header__bookmark-btn {
 	position: absolute;
 	right: 0;
