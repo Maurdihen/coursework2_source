@@ -15,7 +15,8 @@ logging.basicConfig(level=logging.INFO, filename='api.log', format='%(asctime)s 
 def main_page():
     posts = get_posts_all()
     bookmarks = get_bookmarks()
-    return render_template('index.html', posts=posts, bookmarks=bookmarks)
+    s = '<p>jfksdj<\p>'
+    return render_template('index.html', posts=posts, bookmarks=bookmarks, s=s)
 
 
 @app.route('/posts/<int:postid>')

@@ -3,14 +3,15 @@ import json
 
 def get_posts_all():
     with open('data/posts.json', 'r+', encoding='utf-8') as posts:
-    # for post in posts:
-    #     content = post['content'].split()
-    #     for i in content:
-    #         if '#' in i:
-    #             index = content.index(i)
-    #             content[index] = f'<a href="/tag/{i[1:]}">{i}</a>'
-    #     post['content'] = ' '.join(content)
-        return json.load(posts)
+        posts = json.load(posts)
+    for post in posts:
+        content = post['content'].split()
+        for i in content:
+            if '#' in i:
+                index = content.index(i)
+                content[index] = f'<a href="/tag/{i[1:]}">{i}</a>'
+        post['content'] = ' '.join(content)
+    return posts
 
 def get_comments_all():
     with open('data/comments.json', 'r', encoding='utf-8') as comments:

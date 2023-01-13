@@ -320,3 +320,134 @@ jinja2.exceptions.UndefinedError: 'i' is undefined
 2023-01-12 12:04:47,724 [INFO] 127.0.0.1 - - [12/Jan/2023 12:04:47] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
 2023-01-12 12:04:47,724 [INFO] 127.0.0.1 - - [12/Jan/2023 12:04:47] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
 2023-01-12 12:04:47,730 [INFO] 127.0.0.1 - - [12/Jan/2023 12:04:47] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-12 12:55:39,611 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-12 12:55:39,611 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-12 12:55:57,653 [ERROR] Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/egorarhipov/PycharmProjects/coursework2_source/app.py", line 18, in main_page
+    return render_template('index.html', posts=posts, bookmarks=bookmarks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/templating.py", line 130, in _render
+    rv = template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/egorarhipov/PycharmProjects/coursework2_source/templates/index.html", line 32, in top-level template code
+    {% for post in posts %}
+ValueError: I/O operation on closed file.
+2023-01-12 12:55:57,664 [INFO] 127.0.0.1 - - [12/Jan/2023 12:55:57] "[33mGET / HTTP/1.1[0m" 404 -
+2023-01-12 12:56:40,373 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-12 12:56:40,373 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-12 12:56:44,917 [ERROR] Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/egorarhipov/PycharmProjects/coursework2_source/app.py", line 18, in main_page
+    return render_template('index.html', posts=posts, bookmarks=bookmarks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/templating.py", line 130, in _render
+    rv = template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/egorarhipov/PycharmProjects/coursework2_source/templates/index.html", line 32, in top-level template code
+    {% for post in posts %}
+ValueError: I/O operation on closed file.
+2023-01-12 12:56:44,923 [INFO] 127.0.0.1 - - [12/Jan/2023 12:56:44] "[33mGET / HTTP/1.1[0m" 404 -
+2023-01-12 12:56:45,616 [ERROR] Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/egorarhipov/PycharmProjects/coursework2_source/app.py", line 18, in main_page
+    return render_template('index.html', posts=posts, bookmarks=bookmarks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/templating.py", line 130, in _render
+    rv = template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/egorarhipov/PycharmProjects/coursework2_source/templates/index.html", line 32, in top-level template code
+    {% for post in posts %}
+ValueError: I/O operation on closed file.
+2023-01-12 12:56:45,617 [INFO] 127.0.0.1 - - [12/Jan/2023 12:56:45] "[33mGET / HTTP/1.1[0m" 404 -
+2023-01-12 12:56:45,766 [ERROR] Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/egorarhipov/PycharmProjects/coursework2_source/app.py", line 18, in main_page
+    return render_template('index.html', posts=posts, bookmarks=bookmarks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/templating.py", line 130, in _render
+    rv = template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/egorarhipov/PycharmProjects/coursework2_source/templates/index.html", line 32, in top-level template code
+    {% for post in posts %}
+ValueError: I/O operation on closed file.
+2023-01-12 12:56:45,766 [INFO] 127.0.0.1 - - [12/Jan/2023 12:56:45] "[33mGET / HTTP/1.1[0m" 404 -
+2023-01-12 12:58:20,451 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-12 12:58:20,451 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-12 12:58:25,195 [INFO] 127.0.0.1 - - [12/Jan/2023 12:58:25] "GET / HTTP/1.1" 200 -
+2023-01-12 12:58:25,226 [INFO] 127.0.0.1 - - [12/Jan/2023 12:58:25] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-12 12:58:25,227 [INFO] 127.0.0.1 - - [12/Jan/2023 12:58:25] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-12 12:58:25,228 [INFO] 127.0.0.1 - - [12/Jan/2023 12:58:25] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-12 12:59:19,329 [INFO] 127.0.0.1 - - [12/Jan/2023 12:59:19] "GET / HTTP/1.1" 200 -
+2023-01-12 12:59:19,354 [INFO] 127.0.0.1 - - [12/Jan/2023 12:59:19] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-12 12:59:19,354 [INFO] 127.0.0.1 - - [12/Jan/2023 12:59:19] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-12 12:59:19,363 [INFO] 127.0.0.1 - - [12/Jan/2023 12:59:19] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-12 12:59:38,238 [INFO] 127.0.0.1 - - [12/Jan/2023 12:59:38] "GET / HTTP/1.1" 200 -
+2023-01-12 12:59:38,255 [INFO] 127.0.0.1 - - [12/Jan/2023 12:59:38] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-12 12:59:38,256 [INFO] 127.0.0.1 - - [12/Jan/2023 12:59:38] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-12 12:59:38,260 [INFO] 127.0.0.1 - - [12/Jan/2023 12:59:38] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-12 13:04:30,290 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-12 13:04:30,290 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-12 13:04:33,742 [INFO] 127.0.0.1 - - [12/Jan/2023 13:04:33] "GET / HTTP/1.1" 200 -
+2023-01-12 13:04:33,776 [INFO] 127.0.0.1 - - [12/Jan/2023 13:04:33] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-12 13:04:33,777 [INFO] 127.0.0.1 - - [12/Jan/2023 13:04:33] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-12 13:04:33,779 [INFO] 127.0.0.1 - - [12/Jan/2023 13:04:33] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-12 13:06:02,620 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-12 13:06:02,620 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-12 13:06:06,840 [INFO] 127.0.0.1 - - [12/Jan/2023 13:06:06] "GET / HTTP/1.1" 200 -
+2023-01-12 13:06:06,867 [INFO] 127.0.0.1 - - [12/Jan/2023 13:06:06] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-12 13:06:06,867 [INFO] 127.0.0.1 - - [12/Jan/2023 13:06:06] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-12 13:06:06,868 [INFO] 127.0.0.1 - - [12/Jan/2023 13:06:06] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -

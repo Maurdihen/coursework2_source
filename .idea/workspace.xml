@@ -4,44 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87ac2c29-9e75-4e6c-b329-07edff9bd8f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/coursework2_source.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/main_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/utils_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmarks.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bookmarks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ava1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/ava1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ava2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/ava2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bookmark.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/bookmark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/eye.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/eye.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/post1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/post10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/post2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/post3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/post4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/post5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/post6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/post7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/post8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/post9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tag.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-feed.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user-feed.html" afterDir="false" />
+    <list default="true" id="87ac2c29-9e75-4e6c-b329-07edff9bd8f0" name="Changes" comment="CoursWork">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api.log" beforeDir="false" afterPath="$PROJECT_DIR$/api.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,6 +138,14 @@
       <option name="presentableId" value="Default" />
       <updated>1672760389470</updated>
     </task>
+    <task id="LOCAL-00001" summary="CoursWork">
+      <created>1673514451379</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673514451379</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,5 +158,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="CoursWork" />
+    <option name="LAST_COMMIT_MESSAGE" value="CoursWork" />
   </component>
 </project>
