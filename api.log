@@ -451,3 +451,70 @@ ValueError: I/O operation on closed file.
 2023-01-12 13:06:06,867 [INFO] 127.0.0.1 - - [12/Jan/2023 13:06:06] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
 2023-01-12 13:06:06,867 [INFO] 127.0.0.1 - - [12/Jan/2023 13:06:06] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
 2023-01-12 13:06:06,868 [INFO] 127.0.0.1 - - [12/Jan/2023 13:06:06] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-13 18:10:47,963 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-13 18:10:47,963 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-13 18:11:00,774 [INFO] 127.0.0.1 - - [13/Jan/2023 18:11:00] "GET / HTTP/1.1" 200 -
+2023-01-13 18:11:00,844 [INFO] 127.0.0.1 - - [13/Jan/2023 18:11:00] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-13 18:11:00,845 [INFO] 127.0.0.1 - - [13/Jan/2023 18:11:00] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-13 18:11:00,846 [INFO] 127.0.0.1 - - [13/Jan/2023 18:11:00] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-13 18:14:57,602 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-13 18:14:57,602 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-13 18:15:00,893 [INFO] 127.0.0.1 - - [13/Jan/2023 18:15:00] "GET / HTTP/1.1" 200 -
+2023-01-13 18:15:00,926 [INFO] 127.0.0.1 - - [13/Jan/2023 18:15:00] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-13 18:15:00,930 [INFO] 127.0.0.1 - - [13/Jan/2023 18:15:00] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-13 18:15:00,937 [INFO] 127.0.0.1 - - [13/Jan/2023 18:15:00] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-13 18:15:49,391 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-13 18:15:49,391 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-13 18:15:54,289 [INFO] 127.0.0.1 - - [13/Jan/2023 18:15:54] "GET / HTTP/1.1" 200 -
+2023-01-13 18:15:54,326 [INFO] 127.0.0.1 - - [13/Jan/2023 18:15:54] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-13 18:15:54,328 [INFO] 127.0.0.1 - - [13/Jan/2023 18:15:54] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-13 18:15:54,329 [INFO] 127.0.0.1 - - [13/Jan/2023 18:15:54] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-13 18:17:07,587 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-13 18:17:07,587 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-13 18:17:11,951 [INFO] 127.0.0.1 - - [13/Jan/2023 18:17:11] "GET / HTTP/1.1" 200 -
+2023-01-13 18:17:11,992 [INFO] 127.0.0.1 - - [13/Jan/2023 18:17:11] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-13 18:17:11,993 [INFO] 127.0.0.1 - - [13/Jan/2023 18:17:11] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-13 18:17:12,000 [INFO] 127.0.0.1 - - [13/Jan/2023 18:17:12] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-13 18:17:14,489 [INFO] 127.0.0.1 - - [13/Jan/2023 18:17:14] "[33mGET /tag/кот HTTP/1.1[0m" 404 -
+2023-01-13 18:19:41,080 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-13 18:19:41,080 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-13 18:19:51,786 [INFO] 127.0.0.1 - - [13/Jan/2023 18:19:51] "GET / HTTP/1.1" 200 -
+2023-01-13 18:19:51,813 [INFO] 127.0.0.1 - - [13/Jan/2023 18:19:51] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-13 18:19:51,817 [INFO] 127.0.0.1 - - [13/Jan/2023 18:19:51] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-13 18:19:51,818 [INFO] 127.0.0.1 - - [13/Jan/2023 18:19:51] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-13 18:25:33,014 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-13 18:25:33,015 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-13 18:25:48,594 [INFO] 127.0.0.1 - - [13/Jan/2023 18:25:48] "GET / HTTP/1.1" 200 -
+2023-01-13 18:25:48,629 [INFO] 127.0.0.1 - - [13/Jan/2023 18:25:48] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-13 18:25:48,630 [INFO] 127.0.0.1 - - [13/Jan/2023 18:25:48] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-13 18:25:48,652 [INFO] 127.0.0.1 - - [13/Jan/2023 18:25:48] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-13 18:26:42,829 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-13 18:26:42,829 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-13 18:26:45,596 [INFO] 127.0.0.1 - - [13/Jan/2023 18:26:45] "GET / HTTP/1.1" 200 -
+2023-01-13 18:26:45,633 [INFO] 127.0.0.1 - - [13/Jan/2023 18:26:45] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-13 18:26:45,634 [INFO] 127.0.0.1 - - [13/Jan/2023 18:26:45] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-13 18:26:45,635 [INFO] 127.0.0.1 - - [13/Jan/2023 18:26:45] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-13 18:26:50,421 [INFO] 127.0.0.1 - - [13/Jan/2023 18:26:50] "[33mGET /tag/котики HTTP/1.1[0m" 404 -
+2023-01-13 18:27:04,885 [INFO] 127.0.0.1 - - [13/Jan/2023 18:27:04] "[33mGET /tag/инста HTTP/1.1[0m" 404 -
+2023-01-13 18:31:14,080 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-13 18:31:14,081 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-13 18:31:18,033 [INFO] 127.0.0.1 - - [13/Jan/2023 18:31:18] "GET / HTTP/1.1" 200 -
+2023-01-13 18:31:18,061 [INFO] 127.0.0.1 - - [13/Jan/2023 18:31:18] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-13 18:31:18,061 [INFO] 127.0.0.1 - - [13/Jan/2023 18:31:18] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-13 18:31:18,067 [INFO] 127.0.0.1 - - [13/Jan/2023 18:31:18] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-13 18:31:19,533 [INFO] 127.0.0.1 - - [13/Jan/2023 18:31:19] "[33mGET /tag/любовькживотным HTTP/1.1[0m" 404 -
+2023-01-17 10:14:45,602 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-17 10:14:45,603 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-17 10:14:58,094 [INFO] 127.0.0.1 - - [17/Jan/2023 10:14:58] "GET / HTTP/1.1" 200 -
+2023-01-17 10:14:58,130 [INFO] 127.0.0.1 - - [17/Jan/2023 10:14:58] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-17 10:14:58,131 [INFO] 127.0.0.1 - - [17/Jan/2023 10:14:58] "GET /static/img/eye.png HTTP/1.1" 200 -
+2023-01-17 10:14:58,131 [INFO] 127.0.0.1 - - [17/Jan/2023 10:14:58] "GET /static/css/styles.min.css HTTP/1.1" 200 -

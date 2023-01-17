@@ -15,8 +15,7 @@ logging.basicConfig(level=logging.INFO, filename='api.log', format='%(asctime)s 
 def main_page():
     posts = get_posts_all()
     bookmarks = get_bookmarks()
-    s = '<p>jfksdj<\p>'
-    return render_template('index.html', posts=posts, bookmarks=bookmarks, s=s)
+    return render_template('index.html', posts=posts, bookmarks=bookmarks)
 
 
 @app.route('/posts/<int:postid>')
@@ -59,7 +58,7 @@ def page_not_found(e):
 # @app.route('/tag/<tagname>')
 # def user_page(tagname):
 #     return render_template('tag.html', tagname=tagname)
-1
+
 # @app.route('/bookmarks')
 # def user_page():
 #     return render_template('bookmarks.html')
